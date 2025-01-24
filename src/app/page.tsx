@@ -1,10 +1,15 @@
-import React from 'react';
+import Featured from "@/components/Featured";
+import Offer from "@/components/Offer";
+import Slider from "@/components/Slider";
+import React from "react";
 
 const Home = () => {
   return (
-    <div>
-      <p>home page</p>
-    </div>
+    <main>
+      <Slider />
+      <Featured />
+      <Offer />
+    </main>
   );
 };
 
