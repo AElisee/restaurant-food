@@ -30,10 +30,12 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Notification />
-        <Navbar />
-        {children}
-        <Footer />
+        <div className="overflow-hidden">
+          <Notification />
+          <Navbar />
+          {children}
+          <Footer />
+        </div>
       </body>
     </html>
   );
